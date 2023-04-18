@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "roboto";
+  list-style: none;
+  text-decoration: none;
+  /* color: gold; */
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f6f6f6;
+  width: 100vw;
+  height: 15vh;
+}
+.nav-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200vw;
+}
+.nav-text img {
+  width: 9vw;
+  float: left;
+  border-radius: 15px;
+}
+.nav-text h1 {
+  margin-left: 20vw;
+}
+.nav-links {
+  width: 100vw;
+  height: auto;
+}
+.nav-links ul {
+  display: flex;
+  float: right;
+}
+.nav-links ul a {
+  margin-right: 3vw;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: gold;
+}
+.nav-links a:hover {
+  color: bisque;
+}
+
+#main-container {
+  display: flex;
+  width: 100%;
+  height: 85vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-text-container {
+  width: 25vw;
+  height: auto;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-text {
+  width: 25vw;
+  height: 25vh;
+  color: black;
+}
+.main-text h1 {
+  color: black;
+  font-size: 4rem;
+  margin: 15px;
+}
+.main-text span {
+  padding: 15px;
+}
+
+.main-img {
+  margin-left: 2vw;
+}
+
+.main-img img {
+  width: 20vw;
+  border-radius: 50%;
+}
+
+#works-body {
+  font-family: "Roboto", sans-serif;
+}
+
+#works-body > p {
+  /* color: black; */
+}
+
+#works-body span {
+  font-weight: bold;
+  color: red;
+}
+
+#works-heading {
+  border-style: none none solid none;
+  background-color: lightgrey;
+  margin-top: 0vh;
+  padding: 1vh 0vw;
+  color: goldenrod;
+}
+
+#ramos-wc {
+  width: 17.5vw;
+  height: 40vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#works-intro {
+  margin: 5vh 15vw;
+  text-align: center;
+  font-size: 1.1rem;
+  background-color: black;
+  padding: 2vh 2vw;
+  border-radius: 25%;
+  color: white;
+}
+
+#works-body > ul > li {
+  margin-bottom: 2vh;
+  color: black;
+}
+
+#rfef {
+  width: 5vw;
+  height: 10vh;
+  margin: 2vh 0vw;
+}
+
+#rm-logo {
+  width: 10vw;
+  height: 10vh;
+  margin-left: -2vw;
+  margin-top: 2vh 0vw;
+}
